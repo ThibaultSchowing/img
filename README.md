@@ -33,7 +33,7 @@ Public repository for public image access or other stuff
 
 >set root=C:\Users\XXXX\anaconda3\
 >call %root%\Scripts\activate.bat %root%
->call conda activate gepard-deploy-test
+>call conda activate gepard-env
 >call cd C:\Users\XXXX\Desktop\gepard-Gepard+GepardEval
 >call python -m gepard
 
