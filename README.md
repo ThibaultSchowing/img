@@ -29,4 +29,13 @@ Public repository for public image access or other stuff
 - 3) Within the Anaconda prompt, move in the GEPARD directory on the Desktop. Run **cd Desktop/gepard-Gepard+GepardEval**. Use **dir** to list the content of the directory you are in. Use **cd ..** to move in the parent directory.
 - 4) run **python -m gepard** or **python -m gepardevaluation** 
 
+## Create batch shortcut
+
+>set root=C:\Users\XXXX\anaconda3\
+>call %root%\Scripts\activate.bat %root%
+>call conda activate gepard-deploy-test
+>call cd C:\Users\XXXX\Desktop\gepard-Gepard+GepardEval
+>call python -m gepard
+
+>pause
 
