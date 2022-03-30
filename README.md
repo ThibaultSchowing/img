@@ -3,7 +3,8 @@ Public repository for public image access or other stuff
 
 ## GEPARD installation procedure
 
-
+- (Optional) Install [Notepad++](https://notepad-plus-plus.org/downloads/v8.3.3/) if not installed. 
+- (Optional) Install [VScode](https://code.visualstudio.com/). 
 - Install [Anaconda](https://www.anaconda.com/products/individual) FOR THE USER ONLY (matter of path)
 - (Untested on clean windows install) Install the mingw-w64 toolchain [here](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download). [Instructions](https://superuser.com/questions/1294343/install-gcc-in-git-for-windows-bash-environment)
 - Download [GEPARD branch](https://gitlab.ipfdd.de/GEPARD/gepard/-/tree/Gepard+GepardEval) **zip** and extract.
@@ -36,6 +37,5 @@ Public repository for public image access or other stuff
 >call conda activate gepard-env
 >call cd C:\Users\XXXX\Desktop\gepard-Gepard+GepardEval
 >call python -m gepard
-
 >pause
 
